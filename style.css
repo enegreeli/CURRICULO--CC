@@ -1,1 +1,57 @@
-txt
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    color: #000;
+}
+
+body {
+    background-color: #13293D;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    margin: 1rem;
+    display: grid; 
+    grid-template-columns: 30% 1fr;
+    grid-gap: 1rem;
+}
+
+.left {
+    background-color: #006494;
+    box-shadow: 0 0 10px #081b29;
+    border-radius: 10px;
+}
+
+.foto {
+    position: relative;
+}
+
+.foto img {
+    width: 100%;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+
+.foto h1 {
+    position: absolute;
+    bottom: 1rem;
+    color: #fff; 
+    text-align: center;
+}
+
+i {
+    color: #081b29;
+}
+
+
+.pessoais, .habilidades, .idiomas {
+        color: #00abf0;
+        line-height: 2rem;
+}
