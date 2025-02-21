@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #13293D;
+    background-color: #081b29;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-size: 18px;
@@ -24,7 +24,7 @@ main {
 }
 
 .left {
-    background-color: #006494;
+    background-color: #e8f1f2;
     box-shadow: 0 0 10px #081b29;
     border-radius: 10px;
 }
@@ -51,7 +51,80 @@ i {
 }
 
 
-.pessoais, .habilidades, .idiomas {
-        color: #00abf0;
+.pessoais, .habilidades, .idiomas, .experiencias {
+        color: #000;
         line-height: 2rem;
+}
+
+progress {
+    width: 100%;
+    height: 1.8rem;
+}
+
+.sobre, .experiencias, .educacao, .metas {
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 7px 7px 10px #081b29;
+    border-radius: 10px;
+}
+
+.sobre p {
+    margin-top: 1 rem;
+
+}
+
+.experiencias, .educacao {
+    margin-top: 1rem;
+}
+
+.trabalho, .curso {
+    margin: 1.5rem 0;
+    font-weight: bold;
+}
+
+.nome-trabalho, .nome-curso {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.trabalho p, .educacao p {
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.data {
+    color: #081b29;
+}
+
+.atual {
+    background-color: #081b29;
+    color:#fff;
+    padding: 0.1rem 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #081b29;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer i {
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 32px;
+}
+
+@media (max-width: 880px) {
+    main{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
 }
