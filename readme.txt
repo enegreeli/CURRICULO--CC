@@ -1,1 +1,1 @@
-aula do senhor gallitito
+Este repositório contém um projeto desenvolvido durante a aula de programação web. (PROFESSOR GALLO)
